@@ -1,0 +1,42 @@
+body { 
+	background: url(../images/background-2462431_1920.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	padding: 25px;
+}
+
+.answer,
+#timer {
+	font-weight: 900;
+}
+
+#start {
+	color: black;
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px black;
+	border-radius: 5%;
+	margin: 0 35%;
+}
+
+.choices:hover {
+	background-color: white;
+	color: white;
+}
+
+#gameScreen {
+	box-shadow: 7px 5px 47px 0px rgba(255, 254, 251, 0.904);
+}
+
+.shadow {
+	box-shadow: -7px 6px 5px -1px rgba(255, 254, 251, 0.904);
+}
