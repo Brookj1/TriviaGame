@@ -29,7 +29,7 @@ h3 {
 }
 
 .choices:hover {
-	background-color: white;
+	background-color: rgb(130, 177, 204);
 	color: white;
 }
 
@@ -39,4 +39,9 @@ h3 {
 
 .shadow {
 	box-shadow: -7px 6px 5px -1px rgba(255, 254, 251, 0.904);
+}
+
+.picture {
+	width: 70%;
+	height: 70%;
 }

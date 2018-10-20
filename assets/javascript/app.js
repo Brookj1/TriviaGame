@@ -17,33 +17,33 @@ $(document).ready(function() {
             question: "What causes rainbows?",
             choices: ["Unicorn farts", "Leprechauns/pots of gold", "A misalignment between the ozone later and the atmosphere", "Light passing through raindrops and refracting at different angles"],
             correctAnswer: "Light passing through raindrops and refracting at different angles",
-            image: "<img src='assets/images/rainbow-1622730_1920.jpg'>"
-
+			image: "<img src='assets/images/rainbow-1622730_1920.jpg' class='picture'>"
+	
             },
             {
             question: "Why do cats always land on their feet?",
             choices: ["Their insides are made of Jell-O", "They have a unique skeletal structure that allows them to bend and rotate during a fall", "Their paws are balanced so their weight gets redistributed based on gravitational pull", "Their kitty ancestors sold their souls to the devil"],
             correctAnswer: "They have a unique skeletal structure that allows them to bend and rotate during a fall",
-            image: "<img src='assets/images/cat-1508613_1920.jpg'>"
+            image: "<img src='assets/images/cat-1508613_1920.jpg' class='picture'>"
 
             },
             {
             question: "What causes leaves to change color in the fall?",
             choices: ["Chlorophyll is pigmented green, and during the fall there is not enough light of water to maintain photosynthesis so the green fades away and other colors emerge", "Witches change the color of the leaves to indicate the beginning of October and the Halloween celebration", "The cold air causes the leaves to slowly freeze", "The trees are sad the kids have to go back to school"],
             correctAnswer: "Chlorophyll is pigmented green, and during the fall there is not enough light of water to maintain photosynthesis so the green fades away and other colors emerge",
-            image: "<img src='assets/images/maple-leaves-2895335_1920.jpg'>"
+            image: "<img src='assets/images/maple-leaves-2895335_1920.jpg' class='picture'>"
             },
             {
             question: "What causes thunder?",
             choices: ["The giant from Jack and the Beanstalk is bowling", "Wind causes the clouds to crash into each other", "Global warming", "A bolt of lightening heating the air to 50,000 degrees F in a fraction of a second, causing shock waves"],
             correctAnswer: "A bolt of lightening heating the air to 50,000 degrees F in a fraction of a second, causing shock waves",
-            image: "<img src='assets/images/lightning-1056419_1920.jpg'>"
+            image: "<img src='assets/images/lightning-1056419_1920.jpg' class='picture'>"
             },
             {
             question: "How does a plane take off?",
-            choices: ["Huge gusts of wind (haven't you seen the huge fans at the airport?)", "Fairies", "Magic", "The plane’s engine pushes the plane forward, causing air to flow around the wings and lift the plane, increasing as the plane gathers speed. The plane takes off once there is enough lift to overtake gravity"],
+            choices: ["Huge gusts of wind (haven't you seen the huge fans at the airport?)", "Fairies", "Magic", "The engine pushes the plane forward, causing air to flow around the wings and lift the plane, increasing as the plane gathers speed. The plane takes off once there is enough lift to overtake gravity"],
             correctAnswer: "The engine pushes the plane forward, causing air to flow around the wings and lift the plane, increasing as the plane gathers speed. The plane takes off once there is enough lift to overtake gravity",
-            image: "<img src='assets/images/sunset-clouds-1149792_1920.jpg'>"
+            image: "<img src='assets/images/sunset-clouds-1149792_1920.jpg' class='picture'>"
             }];
 
             //fill in questions based on the question count
